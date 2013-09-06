@@ -32,7 +32,8 @@
         android:layout_marginTop="10dip"
         android:textSize="20sp"
         android:text="@string/accounts_welcome"
-        android:textAppearance="@style/accountSetupInfoText" />
+        android:textAppearance="@style/accountSetupInfoText"
+        android:textColor="#ffeeeeee" />
     <EditText
         android:id="@+id/account_email"
         android:hint="@string/account_setup_basics_email_label"
