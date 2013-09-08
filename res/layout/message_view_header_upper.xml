@@ -34,7 +34,7 @@
     <View
         android:layout_width="1dip"
         android:layout_height="match_parent"
-        android:background="@android:color/white"
+        android:background="#ff333333"
         />
     <RelativeLayout
         android:layout_width="0dip"

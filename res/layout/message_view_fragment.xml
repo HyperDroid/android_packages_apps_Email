@@ -189,7 +189,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="4dip"
-                    android:background="@android:color/white"
+                    android:background="#00000000"
                     />
             </ScrollView>
             <!-- end of content area -->

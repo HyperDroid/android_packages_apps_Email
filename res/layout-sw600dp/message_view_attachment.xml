@@ -27,7 +27,7 @@
         android:layout_width="64dip"
         android:layout_height="64dip"
         android:orientation="vertical"
-        android:background="#e5e5e5"
+        android:background="#ff333333"
         >
         <ImageView
             android:id="@+id/attachment_icon"
@@ -69,7 +69,7 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
                 android:textSize="18dip"
-                android:textColor="#333333"
+                android:textColor="#ffdddddd"
                 android:singleLine="true"
                 android:ellipsize="middle"
                 />
@@ -98,30 +98,35 @@
                 android:id="@+id/load"
                 style="@style/Attachment.Button"
                 android:text="@string/message_view_attachment_load_action"
+                android:textColor="#ffdddddd"
                 android:visibility="gone"
                 />
             <Button
                 android:id="@+id/cancel"
                 style="@style/Attachment.Button"
                 android:text="@string/message_view_attachment_cancel_action"
+                android:textColor="#ffdddddd"
                 android:visibility="gone"
                 />
             <Button
                 android:id="@+id/info"
                 style="@style/Attachment.Button"
                 android:text="@string/message_view_attachment_info_action"
+                android:textColor="#ffdddddd"
                 android:visibility="gone"
                 />
             <Button
                 android:id="@+id/open"
                 style="@style/Attachment.Button"
                 android:text="@string/message_view_attachment_view_action"
+                android:textColor="#ffdddddd"
                 android:visibility="gone"
                 />
             <Button
                 android:id="@+id/save"
                 style="@style/Attachment.Button"
                 android:text="@string/message_view_attachment_save_action"
+                android:textColor="#ffdddddd"
                 android:visibility="gone"
                 />
         </LinearLayout>
